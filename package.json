@@ -1,0 +1,16 @@
+{
+  "name": "weather-station-website",
+  "version": "1.0.0",
+  "description": "The website fetches the weather information from the raspberry Pi weather Station through ThinkSpeak API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ThinkSpeak",
+    "RaspberryPi"
+  ],
+  "author": "SESHU",
+  "license": "MIT",
+  "dependencies": {}
+}

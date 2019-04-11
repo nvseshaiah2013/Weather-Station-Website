@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.body
+{
+    max-width: 50%;
+    border:0.2em solid black;
+    border-radius:5px;
+    margin-left:25%;
+    margin-top:40px;
+    font-family: 'Roboto','sans-serif';
+}
+
+.circle
+{
+    background: grey;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 auto;
+    margin-right:12px;
+    width: 15px;
+    height: 15px;
+    opacity: 0.5;
+    
+}
+.load
+{
+    margin-left:46.3%;
+    margin-top:10%;
+}
+.circle2
+{
+     opacity: 1;
+     background: grey;
+     border-radius: 50%;
+     display: inline-block;
+     margin:0 auto;
+     margin-right:12px;
+     height:18px;
+     width:18px;
+}
+.nav
+{
+    background:rgba(217, 255, 0, 0.562);
+    border:0px;
+    max-width: 100%;
+    margin:0;
+    height: 30px;
+    padding:5px;
+    font-weight: bolder;
+}
+.nav3
+{ 
+    background:rgba(217, 255, 0, 0.562);
+    border:0px;
+    max-width: 100%;
+    margin:0 auto;
+    padding:0;
+    font-weight: bold;
+}
+.center
+{
+    text-align: center;
+    padding-top:5px;
+}
+
+.nav2
+{
+    background: rgba(245, 177, 50, 0.733);
+    padding:15px;
+    line-height: 1.3em;
+}
+
+.main_body
+{
+    background: rgba(82, 243, 222, 0.774);
+}
+
+.green
+{
+    background:rgb(51, 230, 51);
+    border:0px;
+    padding:10px;
+    margin-top:0;
+    margin-bottom: 1%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto','sans-serif';
+    border-radius:4px;
+}
+
+.green:hover
+{
+    background:rgb(51,255,51);
+}
+
+
+html
+{
+    box-sizing: border-box;
+    font-family: 'Roboto','sans-serif';
+}
+.temp {
+    float: left;
+    width: 50%;
+    background:rgba(252, 252, 147, 0.884);
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.humid
+{
+    float:left;
+    width:50%;
+    background:rgb(104, 243, 185);
+   font-weight: bolder;
+   text-align: center;
+   padding-top: 9px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bottom-border
+{
+    border-bottom: 1px solid black;
+}
+
+.height-120
+{
+    height:120px;
+}
+
+span
+{
+    letter-spacing: 1.2px;
+    font-size: 44px;
+}

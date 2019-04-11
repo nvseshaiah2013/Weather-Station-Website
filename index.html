@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Raspberry Pi Weather Station</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="nav">
+            <div class="center"> Raspberry Pi Weather Station
+            </div>
+        </div>
+        <div class="nav2">
+            Our Web Application shows you the temperature and humidity of the area where our device is placed. You can
+            simply relax at your place and track the
+            Humidity and Temperature just within a click. All you need is an internet connection. Thats all<br>
+            <br>Hurray !!! Just click the button below to know the temperature and Humidity.
+        </div>
+        <div class="main_body">
+            <div class="center">
+                <button id="go" class="green">Lets Go! </button>
+            </div>
+        </div>
+    </div>
+    <div id ="location" class="body">
+        <div class="nav center">
+            Location: Block 33 Lovely Professional University
+        </div>
+    </div>
+    <div id="valueBox" class="body">
+        <div class="row">
+            <div class="temp bottom-border">Temperature</div>
+            <div class="humid bottom-border">Humidity</div>
+        </div>
+        <div class="row">
+            <div class="temp height-120">The temperature in Celcius is: <br><span id="tempVal"></span></div>
+            <div class="humid height-120">The humidity of Location is: <br><span id="humidVal"></span></div>
+        </div>
+    </div>
+    <div class="load">
+    <span class="circle"></span>
+    <span class="circle"></span>
+    <span class="circle"></span>
+    <span class="circle"></span>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
